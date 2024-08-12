@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>499</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>BIrthDate</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cbYear"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cbMonth"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cbDay"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QCalendarWidget" name="calendarWidget">
+        <property name="verticalHeaderFormat">
+         <enum>QCalendarWidget::NoVerticalHeader</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

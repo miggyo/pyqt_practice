@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btnAdd">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>30</y>
+     <width>171</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>601</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Birthday</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>421</width>
+     <height>92</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Gender</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>BirthDay</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="editName"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editGender"/>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="displayFormat">
+         <string>yyyyMMdd</string>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
